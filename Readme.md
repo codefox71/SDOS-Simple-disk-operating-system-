@@ -110,3 +110,6 @@ python3 src/btfs_pack.py btfs_root build/btfs.img
 The included `btfs_root/bin/hello.hex` prints `*` when run. In QEMU, try `hello.hex` from any folder, or `run -f1 /bin/hello.hex`. Host `.hex` files are decoded from whitespace-separated hexadecimal text; other files are stored as raw bytes. Paths may be absolute from `/` or relative to the current folder; `cd /bin/` changes the working tree node.
 
 The host packer merges `btfs_root/` into `build/btfs.img`; rebuilding first extracts the current volume from the floppy so changes made in QEMU are preserved. Numeric `load [raw_hex] [start] [end]` and `run [start] [end]` remain available.
+
+
+do note the custom c compiler is currently non usable due to a recent update to the input and output of programs and how they work.
