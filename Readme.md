@@ -1,5 +1,7 @@
 this os is a simple redition of a simple disk os or Sdos the example is in python but would
-be idealy writen in x86_64 assambly
+be idealy writen in x86_64 assambly 
+
+the os is for x86_64 cpus such as intel or amd
 
 it has the following commands that are built in 
 ```sh
